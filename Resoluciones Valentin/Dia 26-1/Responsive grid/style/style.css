@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* para que se vea en toda la pantalla */
+    height: 100%;
+    min-height: 100%;
+}
+
+.contenedor {
+    text-align: center;
+    /* los 3 primeros centran el contenido */
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto;
+    display: grid;
+    /* damos espaciado con grid-gap */
+    grid-gap: 1em;
+    /*Con repeat() le estamos diciendo cuantas veces tiene que repetir la medida, en este caso se repite 2 veces */
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-areas:
+        "header header"
+        "a a"
+        "c d"
+        "e e"
+        "footer footer";
+}
+
+
+.header {
+    grid-area: header;
+}
+
+.a {
+    grid-area: a;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+
+.footer {
+    grid-area: footer;
+}
+
+.b {
+    display: none;
+}
+
+
+
+p,
+h1,
+h2 {
+    background-color: #9c9c9c;
+}
