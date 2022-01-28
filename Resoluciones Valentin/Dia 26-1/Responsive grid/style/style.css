@@ -10,7 +10,7 @@
     text-align: center;
     /* los 3 primeros centran el contenido */
     width: 90%;
-    max-width: 1500px;
+    max-width: auto;
     margin: 20px auto;
     display: grid;
     /* damos espaciado con grid-gap */
@@ -52,13 +52,28 @@
 }
 
 .b {
-    display: none;
+    visibility: hidden;
 }
-
-
 
 p,
 h1,
 h2 {
     background-color: #9c9c9c;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .b {
+        grid-area: b;
+        visibility: visible;
+    }
+
+    .contenedor {
+        grid-template-areas:
+            "header header header"
+            "a a b"
+            "a a b"
+            "c d e"
+            "footer footer footer";
+    }
 }
