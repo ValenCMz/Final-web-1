@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.contenedor {
+
+    display: grid;
+    grid-template-areas:
+        "titulo bandera"
+        "messi messi"
+        "lista lista"
+        "footer footer";
+    grid-gap: 0.1em;
+}
+
+.foto-messi {
+    grid-area: messi;
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.titulo {
+    grid-area: titulo;
+    position: relative;
+    top: 25%;
+    left: 10px;
+}
+
+.bandera {
+    grid-area: bandera;
+    width: auto;
+    height: auto;
+    max-width: 75px;
+    min-height: 75px;
+    padding-left: 50%;
+}
+
+.lista {
+    grid-area: lista;
+    /* padding: 20px; */
+
+}
+
+.footer {
+    grid-area: footer;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .contenedor {
+        grid-template-areas:
+            "titulo bandera bandera"
+            "messi messi lista"
+            "footer footer footer";
+    }
+
+    .titulo {
+        left: 50px;
+    }
+
+
+    .bandera {
+        position: relative;
+        left: 380px;
+    }
+
+    .foto-messi {
+        /* width: auto;
+        height: auto;
+        max-width: 80%;
+        min-height: 70%; */
+        width: 100%;
+        height: 400px;
+        max-width: 80%;
+        min-height: 100%;
+    }
+
+    .lista {
+        padding-top: 35%;
+        padding-right: 50%;
+
+    }
+}
