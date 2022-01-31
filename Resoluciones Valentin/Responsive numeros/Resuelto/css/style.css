@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja1,
+.caja3,
+.caja4 {
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+    border-bottom: 2px solid black;
+    font-size: x-large;
+}
+
+.caja5 {
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+    font-size: x-large;
+}
+
+.caja2 {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .caja1 {
+        padding: 3%;
+    }
+
+    .caja2 {
+        display: flex;
+        padding: 3%;
+        justify-content: center;
+        border-bottom: 2px solid black;
+        font-size: x-large;
+    }
+
+    .conteiner-3-4 {
+        display: flex;
+    }
+
+    .caja3 {
+        width: 50%;
+        border-right: 2px solid black;
+        padding: 10%;
+    }
+
+    .caja4 {
+        width: 50%;
+        padding: 10%;
+    }
+
+    .caja5 {
+        padding: 3%;
+    }
+}
