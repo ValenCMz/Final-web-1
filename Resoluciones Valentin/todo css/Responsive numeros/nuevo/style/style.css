@@ -33,6 +33,7 @@ p {
         "tres tres"
         "cuatro cuatro"
         "cinco cinco";
+    grid-template-rows: auto auto auto auto;
 }
 
 .uno {
@@ -74,5 +75,15 @@ p {
 
     .tres {
         border-right: 1px solid black;
+
+    }
+
+    .uno {
+        /* Con esto puedo manejar desde donde quiero tener el tamaño, osea puedo hacer lo mismo que el areas pero de manera manual */
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+
+        /* atajo */
+        /* grid-column: 1/2; */
     }
 }

@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+.dos {
+
+    visibility: hidden;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "uno uno"
+        "cuatro cuatro"
+        "tres tres"
+        "seis seis";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto;
+
+}
+
+p {
+    position: relative;
+    top: 40px;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .dos {
+        visibility: visible;
+        grid-area: dos;
+        border-left: 1px solid black;
+    }
+
+    .cuatro {
+        visibility: hidden;
+    }
+
+    .contenedor {
+        grid-template-areas:
+            "uno dos"
+            "tres tres"
+            "seis seis";
+    }
+
+}
