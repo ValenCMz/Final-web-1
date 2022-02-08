@@ -1,0 +1,6 @@
+.agregar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-weight: 700;
+}

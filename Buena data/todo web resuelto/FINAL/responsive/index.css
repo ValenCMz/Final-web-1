@@ -1,0 +1,34 @@
+.caja{
+    text-align: center;
+}
+
+.caja, header, footer{
+    border: solid black 1px;
+}
+
+.contA{grid-area: A;}
+.contB{grid-area: B;
+        display: none;}
+.contC{grid-area: C;}
+.contD{grid-area: D;}
+.contE{grid-area: E;}
+
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "A A"
+    "C D"
+    "E E";
+}
+
+@media only screen and (min-width: 660px){
+
+    .contB{
+        display:flex;
+    }
+    .contenedor{
+        grid-template-areas: 
+        "A A A A A B"
+        "C C D D E E";
+    }
+}

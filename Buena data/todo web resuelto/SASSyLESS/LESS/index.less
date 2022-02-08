@@ -1,0 +1,22 @@
+@rosita: rgb(255, 1, 192);
+@tamanio: 800px; //LESS agrega variables
+
+body{
+    background-color: black;
+    color: white;
+    
+    div {// LESS agrega anidado de Selectores.
+        background-color: white;
+        color: black;
+
+        p {
+            background-color: @rosita;
+            color: blueviolet;
+            font {//LESS permite separar los selectores por campos.
+                size: @tamanio;
+            }
+        }
+    }
+}
+
+//presiono en compilar y automaticamente crea el CSS

@@ -1,0 +1,14 @@
+.apagado{
+    background-color: rgb(24, 22, 22);
+}
+
+.encendido{
+    background-color: whitesmoke;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    width: 25vw;
+}

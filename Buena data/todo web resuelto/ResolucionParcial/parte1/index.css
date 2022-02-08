@@ -1,0 +1,38 @@
+.caja {
+    text-align: center; 
+    border: solid black 1px;
+
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-areas:
+      "caja1 caja2"
+      "caja3 caja3"
+      "caja4 caja4"
+      "caja5 caja5"
+      
+  }
+  
+  .caja1 {grid-area: caja1}
+  .caja2 {grid-area: caja2}
+  .caja3 {grid-area: caja3}
+  .caja4 {grid-area: caja4}
+  .caja5 {grid-area: caja5}
+  
+  
+  @media only screen and (min-width: 660px) {
+  
+    .contenedor {
+      display: grid;
+      grid-template-areas:
+        "caja1 caja1"
+        "caja2 caja2"
+        "caja3 caja4" 
+        "caja5 caja5"
+    }
+    
+  }
+  
+  
+ 

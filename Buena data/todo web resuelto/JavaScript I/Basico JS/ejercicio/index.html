@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Cambio de texto en Parrafo con JS</h1>
+    <p id="parrafo"> aca se va a cambiar</p>
+    <h2>Cambio de texto en Bloque con JS</h2>
+    <div id="div1">
+        <p>este es el primer div vacio</p>
+    </div>
+    <div id="div2">
+        <p>este es el segundo div vacio</p>
+    </div>
+    <div id="div3">
+        <p>este es el tercer div vacio</p>
+    </div>
+    <div>
+        <button onclick="myfunction()">Click me</button>
+        <p id="evento click">Evento onclick</p>
+    </div>
+    <div>
+        <h2>ejecucion de evento por presion de tecla y 
+            cambio de color de fondo de casilla</h2>
+        <input type="text" onkeydown="myfunction2()" onfocus="myfunction3(this)">
+    </div>
+    <div>
+        <h2>muestra de mensaje por pantalla</h2>
+        <p>Selecciona la imagen de un auto.</p>
+
+        <select id="eleccion" onchange="myfunction4()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Rover">Rover</option>
+        </select>
+
+        <p>cuando selecciones un auto. aparecera impreso por pantalla.</p>
+
+        <p id="demo"></p>
+    </div>
+
+    <div>
+        <h2>3 botones de distinto color</h2>
+        <div>
+            <button onclick="myfunction5()" >Boton 1</button>
+            <button onclick="myfunction6()" >Boton 2</button>
+            <button onclick="myfunction7()" >Boton 3</button>
+            <p id="evento5"></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

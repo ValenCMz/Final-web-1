@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+}
+body div {
+  background-color: white;
+  color: black;
+}
+body div p {
+  background-color: #ff01c0;
+  color: blueviolet;
+}
+body div p font {
+  size: 800px;
+}

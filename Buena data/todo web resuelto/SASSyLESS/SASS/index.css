@@ -1,0 +1,41 @@
+body {
+  color: red;
+  font-size: 12px; /*letrita*/
+  background-color: rgba(206, 122, 11, 0.521);/*marroncito*/
+}
+
+body div {
+  color: violet;
+  background-color: blue;
+  font-size: 100px; /*letrota*/
+  background-color: red;
+}
+
+body div article {
+  background-color: #08ffd6;
+  color: orange;
+}
+
+body div article section {
+  background-color: #ff144e;
+  color: black;
+}
+
+body div article section p {
+  background-color: blue;
+  color: greenyellow;
+}
+
+body div article section p span {
+  background-color: violet;
+  font-size: blue;
+  color: pink;
+}
+
+p {
+  color: blue;
+  background-color: red;
+}
+
+/*a SASS no le gusta que este el : pegado al { */
+/*# sourceMappingURL=index.css.map */

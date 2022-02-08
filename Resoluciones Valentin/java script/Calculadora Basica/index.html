@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Realice una calculadora que permita calcular las 4 operacoines basicas entre dos operandos.
+
+    -No se debe permitir dividir por 0.
+    -Se debe tener una lista de operaciones y resultados que se fueron haciendo.
+    -Se debe tener un boton para eliminar la lista de operaciones realizadas. -->
+
+    <h1>Calculadora Basica</h1>
+        
+        <input type="number" id="valor-uno">
+      
+        <select id="operador">
+            <option value=""></option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <input type="number" id="valor-dos">
+
+        <button id="btn-calcular">=</button>
+
+        <div id="resultado">
+
+        </div>
+
+        <button id="btn-eliminar">Eliminar Historial</button>
+    <script src="script.js"></script>
+</body>
+</html>

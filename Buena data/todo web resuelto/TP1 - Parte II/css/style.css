@@ -1,0 +1,53 @@
+h1{
+    font-family: fantasy;
+    border: solid;
+    font-size: 50px;
+    letter-spacing: 20px;
+    margin-right: 2px;
+}
+
+h2{
+    font-size: 300%;
+    text-decoration-line:underline;
+}
+
+h3{
+    font-size: 200%;
+    color: black;
+    text-align: left;
+}
+
+ul{list-style-type: none;
+   text-align: center;}
+
+li.estilo2{
+    /*width: 60%; ancho(izq a der) de las cajitas*/
+    padding: 10px; /*alto de cada cajita*/
+    background-color: lightblue;
+    margin-right: 40px; /*distancia del margen derecho*/
+    margin-top: 10px; /*distancia del margen superior*/
+    border: black 2px solid;
+    
+    font-family: "Mystery Quest"; /*fuente descargada*/
+    font-size: 220%;
+}
+div{  
+    text-align: center;
+}
+
+body{background-color: yellow;
+     /*opacity: 0.6; esto regula que tan transparente es el objeto selecionado*/}
+
+p{
+    font-family: "Dela Gothic One";
+}
+li.estilo1{
+    list-style: square ;
+}
+
+a{
+    font-size: 30px;
+}
+/*esto es un 
+parrafo de comentario en 
+css*/

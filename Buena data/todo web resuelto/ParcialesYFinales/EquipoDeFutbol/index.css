@@ -1,0 +1,12 @@
+.resaltado{
+    color: white;
+    background-color: yellow;
+}
+
+td, th{
+    border: solid black 1px;
+}
+
+thead{
+    background-color: hotpink;
+}

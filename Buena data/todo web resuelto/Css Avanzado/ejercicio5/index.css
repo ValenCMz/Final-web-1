@@ -1,0 +1,37 @@
+html{/*ESTO MODIFICA A TODAS LAS ETIQUETAS QUE ESTEN DENTRO DEL HTML*/
+    color: white;
+}
+body{
+    background-color: black;
+    border: solid white 1px;
+}
+
+div{
+    color: inherit;
+}
+div > p > span{ /*ESTO MODIFICA A TODOS LOS SPAN QUE ESTEN DENTRO DE UN P QUE ESTEN DENTRO DE UN DIV*/
+    color: red;
+    font-style: italic;
+}
+
+td {
+    text-align: center;
+    border: solid 1px white;
+}
+
+li.destacado { /* ESTO MODIFICA A TODOS LAS ETIQUETAS CLASE destacado QUE ESTEN DENTRO DE UN LI*/
+    font-style: italic;
+    color: rgb(0, 255, 0);
+}
+ol > li{
+    color: blue;
+    font-size: 2em;
+}
+
+div > p.destacado{ /*ESTO MODIFICA A TODAS LOS P CON CLASE destacado QUE ESTEN DENTRO DE UN DIV*/
+    color: rgb(255, 0, 221);
+}
+p#texto{ /*ESTO MODIFICA A TODOS LOS P QUE TENGAN UN ID = texto*/
+    color: purple;
+    font-size: 1em;
+}

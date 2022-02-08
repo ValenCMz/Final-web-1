@@ -1,0 +1,26 @@
+.titulo{
+    text-align: center; 
+    color: white;
+    background-color: black;   
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.parrafo{
+    font-size: 30px;
+    text-align: center;
+    background-color:darkgray;
+}
+
+.indice{
+    border: solid gray 1px;
+    background-color: rgba(248, 238, 238, 0.973);
+    width: 20%;
+    margin-left: 2%;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 45px;
+    background-color: black;
+    width: 20%;
+}

@@ -1,0 +1,65 @@
+.header,
+.a,
+.b,
+.c,
+.d {
+    text-transform: uppercase;
+    background-color: lightgray;
+    margin: 3px;
+    text-align: center;
+}
+
+.header {
+    color: orange;
+    grid-area: header;
+}
+
+.a {
+    grid-area: pepe;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "pepe pepe"
+        "b b"
+        "c d";
+}
+
+.footer {
+    display: none;
+    background-color: lightgreen;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        grid-area: footer;
+        display: inherit;
+    }
+
+
+    .content {
+        display: grid;
+        grid-template-rows: 1fr 2fr 3fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "pepe pepe pepe"
+            "b c d"
+            "footer footer footer";
+    }
+
+}

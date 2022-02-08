@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <p>Realice una calculadora que permita calcular las 4 operacoines basicas entre dos operandos.</p>
+    <ul>
+        <li> -No se debe permitir dividir por 0.</li>
+        <li> -Se debe tener una lista de operaciones y resultados que se fueron haciendo.</li>
+        <li> -Se debe tener un boton para eliminar la lista de operaciones realizadas.</li>
+    </ul>
+
+    <h1>Calculadora basica</h1>
+
+    <input type="number" id="num1">
+    <br>
+
+    <form>
+        <input type="radio" id="suma" name="operator" value="+">
+        <label for="suma"> + </label><br>
+        <input type="radio" id="resta" name="operator" value="-">
+        <label for="resta"> - </label><br>
+        <input type="radio" id="multiplicacion" name="operator" value="*">
+        <label for="multiplicacion"> * </label><br>
+        <input type="radio" id="division" name="operator" value="/">
+        <label for="division"> / </label>
+    </form>
+
+    <input type="number" id="num2">
+    <br>
+
+    <button id="calcular"> = </button>
+
+    <ul id="lista-resultado"></ul>
+
+    <button id="eliminar-historial"> Eliminar historial </button>
+
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Nueva faltura: </p>
+
+    <select name="tipo" id="tipo">
+        <option value="A">Tipo A</option>
+        <option value="B">Tipo B</option>
+    </select>
+
+    <input type="text" id="descripcion" placeholder="Descripcion" />
+    <input type="text" id="nombre" placeholder="Nombre" />
+    <input type="number" id="total" placeholder="Total" />
+    <button id="cargarFactura">Cargar</button>
+    <br>
+
+    <p>Seleccionar tipo de facturas a mostrar</p>
+    <select name="mostrartipo" id="mostrartipo">
+        <option value="A">Tipo A</option>
+        <option value="B">Tipo B</option>
+    </select>
+    <button id="mostrarFacturas">Mostrar todas las facturas</button>
+
+    <ul id="listaSalida">
+    </ul>
+    <br>
+
+    <p>Total facutrado</p>
+    <button id="totalFacturado">Calcular</button>
+
+    <p id="facturado">
+    </p>
+
+    <script src="ej3.js"></script>
+</body>
+
+</html>

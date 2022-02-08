@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p> Cree un calculador de notas finales de un alumno. El sistema debe permitir
+        ingresar las notas desde un input de texto (una por una, sin límites) y mediante
+        otro botón se debe informar el promedio del alumno.</p>
+
+    <h1>Historial de notas:</h1>
+    <input type="text" id="materia" placeholder="materia">
+    <input type="number" id="nota" placeholder="0" min="0" max="10">
+
+    <button id=cargar-notas>Cargar nota</button>
+    <br>
+
+    <ul id="lista-notas">
+
+    </ul>
+    <br>
+
+    <button id="calcular-promedio">Calcular promedio</button>
+
+    <p id="promedio-notas"></p>
+
+    <script src="carga-y-promedio-notas.js"></script>
+</body>
+
+</html>

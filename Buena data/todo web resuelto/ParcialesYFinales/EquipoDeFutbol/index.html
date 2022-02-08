@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Equipo de Futbol</title>
+</head>
+<body>
+    <h1>LA SIGUIENTE PAGINA CARGA LOS JUGADORES DE UN EQUIPO DE FUTBOL</h1>
+    <form>
+        <input type="text" id="jugador" name="jugador" placeholder="Nombre Jugador">
+        <select name="posicion" id="posicion">
+            <option value="arquero">Arquero</option>
+            <option value="delantero">Delantero</option>
+            <option value="defensor">Defensor</option>
+        </select>
+        <button id="btnagregar">Agregar</button>
+    </form>
+    <table id="equipo" class="tabla-equipo">
+        <thead>
+            <tr>
+                <td>Jugador</td>
+                <td>Posicion</td>
+            </tr>
+        </thead>
+        <tbody id="jugadores">
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>

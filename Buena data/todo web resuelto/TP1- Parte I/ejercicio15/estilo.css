@@ -1,0 +1,37 @@
+body {
+    background: #234772;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+      font-family: Arial;
+      color: white;
+      text-align: center;
+  }
+  
+  h4 {
+    color: white;
+  }
+
+  h5 {
+      color: red;
+  }
+  
+  ul {
+    color: white;
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: white;
+  }
+  img{
+    display:block;
+    margin:auto;
+    }
+  
+  

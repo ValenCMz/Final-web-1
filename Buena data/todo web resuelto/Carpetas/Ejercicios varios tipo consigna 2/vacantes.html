@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>3) Implementar un sistema de carga de vacantes en una empresa, donde la empresa puede cargar las posiciones en
+        las que está buscando nuevos empleados. Se deben ingresar en una página la posición y la cantidad de vacantes en
+        dicha posicion. El listado de posiciones debe mostrarse en el HTML.
+        Se deben cumplir los siguientes requisitos:
+    </p>
+    <ul>
+        <li> 1. La empresa debe poder introducir la descripción (un texto corto) y el numero de posiciones abiertas.
+        </li>
+        <li> 2. Se debe ir mostrando en un listado las posiciones abiertas.</li>
+        <li> 3. El total de posiciones publicadas no debe poder superar 20 posiciones. Se debe mostrar un error en la
+            página en dicho caso.</li>
+    </ul>
+
+    <h1>Vacantes:</h1>
+    <input type="text" id="posicion" placeholder="posicion">
+    <input type="text" id="descripcion" placeholder="descripcion">
+    <input type="number" id="vacantes" placeholder="vacantes">
+    <button id="cargar-posicion">cargar</button>
+    <br>
+
+    <h2>Posiciones abiertas:</h2>
+    <ul id="lista-posiciones">
+
+    </ul>
+    <br>
+
+    <script src="vacantes.js"></script>
+</body>
+
+</html>

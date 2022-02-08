@@ -1,0 +1,10 @@
+.datos th {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200vh;
+}
+
+.datos td, .datos th {
+  padding: 12px;
+}
+/*# sourceMappingURL=index.css.map */
