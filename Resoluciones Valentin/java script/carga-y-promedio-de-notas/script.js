@@ -16,26 +16,32 @@ function cargarNota(){
     let nombre =  document.querySelector("#materia").value;
     let nota = document.querySelector("#nota").value;
 
-    let materia = [{
-        materia: nombre,
-        nota: nota
-    }];
+    let materia = {
+        "materia": nombre,
+        "nota": nota
+    };
 
     materias.push(materia);
 
-    for (let i = 0; i < materia.length; i++) {
-        lista_notas.innerHTML += "<li>" + " " + "MATERIA" + " " + materia[i].materia + " " + "NOTA" + " " + materia[i].nota + " " + "</li>"
+    lista_notas.innerHTML = "";
+
+    for (let i = 0; i < materias.length; i++) {
+        lista_notas.innerHTML += "<li>" + " " + "MATERIA: " + " " + materias[i].materia + " " + "NOTA: " + " " + materias[i].nota + " " + "</li>"
     }
 }
 
 function calcularPromedio(){
 
+    let promedio =0;
+
     for (let i= 0; i < materias.length; i++){
-        console.log(materias[i]);
 
-        console.log(materias[i].nota);
-   
-
+        promedio += parseInt(materias[i].nota);
     }
+
+    promedio = promedio/materias.length;
+
+    document.querySelector("#lista-promedio").innerHTML = promedio;
+    
 }
 
