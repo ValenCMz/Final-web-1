@@ -1,0 +1,40 @@
+<!-- Un consultorio odontológico quiere armar un sistema sencillo de manejo del orden
+de atencion de los pacientes. Usando el siguiente HTML: -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="paciente">Nombre y Apellido</label>
+      <input id="paciente" type="text" name="paciente" />
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" name="edad" />
+      <select id="embarazada">
+        <option>Embarazada</option>
+        <option value="si">Si</option>
+        <option value="no">No</option>
+      </select>
+      <button id="guardar">Guardar Turno</button>
+    </form>
+    <div id="turnos"></div>
+    <button id="siguiente">Mostrar Siguiente Turno</button>
+    <div id="next"></div>
+    <script src="odontologia.js"></script>
+  </body>
+
+  <!-- Escriba el código JS: 1- Cree un nuevo turno para una persona. Y liste todos
+  los turnos 2- Limite la cantidad de la cola de turnos a 10. 3- Apretando un
+  botón muestre el siguiente turno. Si hay una persona mayor de 60 años o si
+  está embarazada se atiende primero. (elige la primera que encuentra) Puede
+  reutilizar o modificar el HTML propuesto. Entrega: Se debe subir un archivo
+  comprimido en formato ZIP y TAMBIEN poner dentro del texto el código
+  delimitando claramente cada una de las partes. Los datos deben manejarse a
+  nivel local (no se requiere de un servicio) Los datos que sean numéricos solo
+  deben permitir numeros -->
+</html>
