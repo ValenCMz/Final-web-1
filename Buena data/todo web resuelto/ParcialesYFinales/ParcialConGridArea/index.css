@@ -1,0 +1,43 @@
+.caja {
+    border: 1px solid black;
+    background: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* layout */
+  .container {
+    display: grid;
+    grid-template-areas:
+      "logo logo"
+      "main main"
+      "caja1 caja3"
+      "caja2 caja4"
+
+  }
+  
+  .logo {grid-area: logo}
+  .main {grid-area: main}
+  .caja-1 {grid-area: caja1}
+  .caja-2 {grid-area: caja2}
+  .caja-3 {grid-area: caja3}
+  .caja-4 {grid-area: caja4}
+  
+  
+  /* solo para pantallas superiores a 660px */
+  @media only screen and (min-width: 660px) {
+  
+    /* layout */
+    .container {
+      display: grid;
+      grid-template-areas:
+        "logo main main main"
+        "caja1 caja2 caja3 caja4" 
+    }
+    
+  }
+  
+  
+  
+  

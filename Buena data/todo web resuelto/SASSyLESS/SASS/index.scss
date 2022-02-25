@@ -1,0 +1,62 @@
+$marroncito: rgba(206, 122, 11, 0.521);
+$letrita: 12px;
+$letrota: 100px;
+
+//anidamiento de selectores
+body{
+       color: red;
+        font-size: $letrita;
+       background: {
+        color: $marroncito;
+    }
+    
+    div{
+        color: violet;
+        background: {
+            color: blue;
+        };
+        font: {
+            size: $letrota;
+        }
+        background: {
+            color:red}        
+        article{
+            background: {
+                color: rgb(8, 255, 214);
+            };
+            color: orange;
+            section{
+                background: {
+                    color: rgb(255, 20, 78);
+                };
+                color: black;
+                p{
+                    background: {
+                        color: blue
+                    };
+                    color: greenyellow;
+
+                    span{
+                        background: {
+                            color: violet;
+                        };
+                        font: {
+                            size: blue
+                        };
+                        color: pink;
+                    }
+                }
+            }
+        }
+    }
+
+}
+//selector simple
+p{
+    color: blue;
+    background: {
+        color: red;
+    };
+}
+
+/*a SASS no le gusta que este el : pegado al { */

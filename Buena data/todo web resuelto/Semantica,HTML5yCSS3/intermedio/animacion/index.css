@@ -1,0 +1,39 @@
+.animacion{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: blue;
+    animation-name: stretch;
+    animation-duration: 10s; /*dura 10 segundos*/
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;/*se repite en loop infinito*/
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes stretch{
+0% {
+    transform: scale(.3);
+    background-color: blue;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orangered;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: red;
+  }
+}
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

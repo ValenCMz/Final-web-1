@@ -1,0 +1,83 @@
+/*
+.menu{
+    font-family: FalseRomans;
+    color: grey;
+}   
+
+a{
+    color: red;
+
+}
+
+a:hover{
+    font-weight:bold;
+    background-color:grey ;
+}
+
+p{
+    font-style:italic;
+    font-size: 12px;
+}
+
+footer > a {
+    color: red;
+}
+
+body{
+    font-family: "Formatter"; consigna 2 solo css
+}*/
+
+
+div{
+    text-align: center;
+    font-size: 6vh;
+    
+}
+
+
+
+.A{
+    background-color: orangered;
+}
+.B{
+    background-color: grey
+}
+.C{
+    background-color: blue;
+}
+.D{
+    background-color: green;
+}
+.E{
+    background-color: yellow;
+}
+.F{
+    display: none;
+    background-color:purple;
+}
+
+.CF{
+    display:flex;
+    flex-direction: column;
+}
+@media only screen and (min-width: 660px){
+    .F{
+        display:flex;
+        padding-left: 25%;
+        padding-right: 23%;    }
+    .D{
+        
+        display: none;
+    }
+    .CF{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .C{
+        padding-left: 23%;
+        padding-right: 25%;
+    }
+}
+
+

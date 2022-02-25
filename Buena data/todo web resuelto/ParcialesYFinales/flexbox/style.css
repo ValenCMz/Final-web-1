@@ -1,0 +1,14 @@
+.flex-container {
+  margin: auto;
+    display:flex;
+    border: solid 10px black;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px; /*relleno externo al borde*/
+    padding: 20px; /*relleno interno al borde*/
+    font-size: 30px;
+  }
+  

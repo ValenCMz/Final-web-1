@@ -1,0 +1,9 @@
+#boton {
+    width: 200px;
+}
+
+.fondo {
+
+    background-color: yellow;
+    border: 3px solid red;
+}

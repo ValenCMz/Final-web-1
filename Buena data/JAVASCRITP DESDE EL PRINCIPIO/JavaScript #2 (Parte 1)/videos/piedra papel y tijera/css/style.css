@@ -1,0 +1,11 @@
+.result {
+    border: 5px solid green;
+    height: 50px;
+    width: 200px;
+    font-size: xx-large;
+}
+
+#btn-play {
+    width: 100px;
+    padding: 20px;
+}

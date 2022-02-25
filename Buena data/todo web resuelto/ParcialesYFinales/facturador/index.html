@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturador</title>
+</head>
+<body>
+    <h1>ESTE ES UN PROGRAMA QUE CARGA FACTURAS MANUALMENTE POR INPUTS QUE COMPLETA EL USUARIO</h1>
+    <form>
+        <div>
+            Factura A o B: <input type="text" id="tipo">
+        </div>
+        <div>
+            Descripcion de la Compra: <input type="text" id="descripcion">
+        </div>
+        <div>
+            Nombre del Comprador: <input type="text" id="nombre">
+        </div>
+        <div>
+            Importe de la Compra: <input type="number" id="importe">
+        </div>
+
+        <button id="btncargar">Cargar Factura</button>
+        
+        <div>
+            <button id="listarA">ListarA</button>
+            <button id="listarB">ListarB</button>
+        </div>
+
+        <button id="btntotal">Calcular Total Facturado</button>
+        
+    </form>
+
+    <div id="output"></div>
+    <div id="totalfacturado"></div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

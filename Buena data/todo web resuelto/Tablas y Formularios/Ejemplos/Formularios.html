@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <div>
+        <h1>Formularios</h1>
+    </div>
+    <form>
+        <h4>Ingreso de Texto</h4>
+    <div>
+        Nombre: <input type="text" value="Ingrese su Nombre" name="nombre" /><!--<input type="text" value="Valor" placeholder="placeholder" />-->
+    </div>
+    <div>
+        <h4>Ingreso de Texto y Texto tipo Password</h4>
+        Nombre: <input type="text" name="nombre" value=""/>
+        Password: <input type="password" name="pass" />
+    </div>
+    <div>
+        <h4>Selector Unico</h4>
+        <input type="radio" name="sexo" value="masculino"/> Masculino
+        <input type="radio" name="sexo" value="femenino"/> Femenino
+    </div>
+    <div>
+        <h4>Checkbox</h4>
+        <input type="checkbox" name="vehiculo" value="Bici"/> Tengo una Bici
+        <input type="checkbox" name="vehiculo" value="Auto"/> Tengo un Auto
+    </div>
+    <div>
+        <h4>Selector Vetical</h4>
+        <p> seleccione un auto </p>
+            <select>
+                <option value="volvo">Volvo</option>
+                <option value="Rover">Rover</option>
+                <option value="Alfa Romeo">Alfa Romeo</option>
+                <option value="audi">Audi</option>
+            </select>
+    </div>
+    <div>
+        <h4>Checkbox con Boton para Enviar</h4>
+        <input type="checkbox" name="vehiculo" value="Bici"/> Tengo una Bici
+        <input type="checkbox" name="vehiculo" value="Auto"/> Tengo un Auto
+        <input type="submit" value="Enviar"/>
+    </div>
+    <div></div>
+    <br><br>
+        <h4>Boton sin imagen</h4>
+        <button>Enviar</button> <!--o Tambien: <input type="submit" value="Enviar"/>-->
+        <h4>Boton con imagen</h4>
+        <button><img src="boton-rojo.jpg" width="70" height="50" /></button>
+    <br><br>
+        <h4>Selector de Fecha</h4>
+        <input type="date" id="start" name="trip-start" value="1994-10-28" min="2018-01-01" max="2018-12-31"> 
+        <!--se le puede poner una fecha de inicio rango minimo y maximo de seleccion-->
+    <br><br>
+        <h4>Para Ingresar Fecha y Hora</h4>
+        <input type="datetime" name="Nombre">
+    <br><br>
+        <h4>Ingreso de E mail</h4>
+        <input id="emailAddress" type="email">
+    <br><br>
+        <h4>Cargar Archivos</h4>
+        <input type="file" id="myfile" name="myfile">
+    <br><br>
+        <h4>Tipo de Dato Oculto "hidden"// No hay nada xq esta oculto... :D</h4>
+        <input type="hidden">
+
+
+    </form>
+
+</body>
+</html>

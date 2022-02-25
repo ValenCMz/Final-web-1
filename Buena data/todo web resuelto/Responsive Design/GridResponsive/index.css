@@ -1,0 +1,40 @@
+header {
+    background-color: #FF4945;
+    padding: 20px 10px;
+ }
+ 
+ .main {
+   color: white;
+   background-color: #FFA931;
+   padding: 10px;
+  
+   min-height: 300px;  /* solo para el ejemplo */
+ }
+ 
+ .sidebar {
+   color: white;
+   background-color: #9B0579;
+   padding: 10px;
+ 
+   min-height: 300px;  /* solo para el ejemplo */
+ }
+ 
+ footer {
+   color: white;
+   background-color: #00778F;
+   padding: 20px 10px;
+ }
+ 
+ /* agregamos un contenedor grid */
+ .middle-wrapper {
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+ 
+ /* solo para pantallas superiores a 660px */
+ @media only screen and (min-width: 660px) {
+    .middle-wrapper {
+          grid-template-columns: 3fr 1fr;
+     }
+   
+   }

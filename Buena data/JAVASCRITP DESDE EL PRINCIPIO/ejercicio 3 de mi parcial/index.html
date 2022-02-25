@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   
+    <input id="automovil" type="text" placeholder="Automovil" value="">
+    <input id="modelo" type="text" placeholder="Modelo" value="">
+    <input id="color" type="text" placeholder="Color" value="">
+    <input id="precio" type= "number" placeholder="Precio" value="">
+    
+    <select id="seleccionar">
+        <option value="">Elegir si tiene aire o no el vehiculo</option>
+        <option value="TieneAire">Tiene aire acondicionado</option>
+        <option value="NoTieneAire">No tiene aire condicionado</option>
+    </select>
+
+    <input id="boton-aire-si" type="button" value="Tiene aire acondicionado">
+    <input id="boton-aire-no" type="button" value="No tiene aire condicionado">
+
+    <h1>Autos con aire acondicionado</h1>
+    <ul id="listado" class="resaltado">
+
+    </ul>
+    <h2>Autos sin aire acondicionado</h2>
+    <ul id="listado2">
+
+    </ul>
+
+    <script src="js/javascritp.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.estilo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+img{
+    width: 50vw;
+    height: 50vh;
+}

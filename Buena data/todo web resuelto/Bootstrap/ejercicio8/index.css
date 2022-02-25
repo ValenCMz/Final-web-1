@@ -1,0 +1,12 @@
+.row{
+    background: whitesmoke;
+  }
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+div > p{
+  border: solid black 1px;
+}

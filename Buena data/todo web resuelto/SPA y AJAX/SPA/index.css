@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+div:hover{
+    background-color: red;
+    color: white;
+}
+html{
+    font-size: 5vh;
+}
+
+.header, .nav, div, section, article, .footer{
+    border: solid 1px black;
+}
+

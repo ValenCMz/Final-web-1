@@ -1,0 +1,110 @@
+body{
+   background-color: black;
+   display: block;
+}
+.logo{
+   width: 6vw; 
+   height: 10vh;
+}
+/*----------------------------------HEADER-------------------------------------------------*/
+header{
+   background-color: yellow;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   color: red;
+}
+/*---------------------------------NAVBAR-------------------------------------------------*/
+
+
+nav{
+   margin-top: 1vw;
+   background-color: yellow;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+@media only screen and (max-width: 660px){
+   nav{
+      text-align: center;
+      flex-direction: column;
+      background-color: grey;
+   }
+}
+
+.parrafo{
+   font-size: 4vh;
+   margin-left: 5vw;
+   margin-right: 5vw;
+}
+
+
+.noticia{
+   justify-content: center;
+   display: flex;
+   font-size: 30px;
+   font-style: normal;
+}
+
+.subtitulo{
+   background-color: yellow;
+   font-style: normal;
+   font-size: 4vh;
+}
+
+.cuerpo{
+   display: block;
+   background-color: lightgray;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.titulo-noticia{
+   background-color: yellow;
+   color: black;
+   font-size: 5vh;
+}
+
+.lista{
+   color: rgb(0, 17, 255);
+   font-size: 4vh;
+   list-style: none;
+}
+
+.footer{
+   background-color: yellow;
+   color: black;
+   font-style: italic;
+}
+
+.contenedor-imagen{
+   margin-left:  25%;
+   margin-right: 25%;  
+}
+
+.imagen{
+   width: 50vw;
+   height: 40vh;
+}
+
+#deportes{
+   color: blue;
+}
+
+#politica{
+   color: rgb(252, 0, 231);
+}
+
+a{
+   text-decoration: none;
+   color: green;
+   font-style: italic;
+}
+
+.parrafo,.noticia,.subtitulo,.lista,.titulo-noticia,footer{
+   text-align: center;
+
+}

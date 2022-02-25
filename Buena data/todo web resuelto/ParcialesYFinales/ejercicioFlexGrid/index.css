@@ -1,0 +1,33 @@
+.caja{
+    border: black solid 1px;
+}
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+      "contenedor1"
+      "contenedor2"
+      "contenedor4"
+      "contenedor5"
+      
+}
+  
+  .contenedor1 {grid-area: contenedor1}
+  .contenedor2 {grid-area: contenedor2}
+  .contenedor4 {grid-area: contenedor4}
+  .contenedor5 {grid-area: contenedor5}
+  
+@media only screen and (min-width: 660px){
+    .contenedor{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "contenedor1"
+        "contenedor2"
+        "contenedor2"
+        "contenedor5"
+    }
+    .contenedor4{
+        visibility: hidden;
+    }
+}

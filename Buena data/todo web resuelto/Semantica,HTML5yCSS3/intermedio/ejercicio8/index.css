@@ -1,0 +1,21 @@
+nav{
+    text-shadow: 2px 2px grey;
+    color: greenyellow;
+
+}
+
+aside{
+    box-shadow:10px 10px 5px black;
+}
+
+footer{
+    background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+}
+
+nav,footer,aside{
+    border: solid 1px black;
+    font-size: 5vw;
+    margin: 2vh;
+    
+}

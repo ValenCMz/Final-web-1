@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* todos los h1 dentro del header */
+header h1 {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    border: 2px solid black;
+}
+
+header {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.A,
+.B,
+.CyD {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+section.A,
+section.B {
+    border: 2px solid black;
+}
+
+
+section {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    margin-top: 5px;
+}
+
+.CyD {
+    display: flex;
+    padding: 5%;
+}
+
+section.C {
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section.D {
+    width: 50%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+footer {
+    display: flex;
+    background-color: greenyellow;
+}
+
+@media only screen and (min-width: 600px) {
+
+    header h1 {
+        padding: 3%;
+    }
+
+    .A {
+        padding: 5%;
+    }
+
+    article.BCD {
+        display: flex;
+    }
+
+    /* 
+    article.CyD {
+        width: 50%;
+    } */
+
+    section.B {
+        width: 25%;
+    }
+
+    section.C {
+        width: 25%;
+        margin: 5px 5px 0px;
+
+    }
+
+    section.D {
+        width: 25%;
+
+    }
+}

@@ -1,0 +1,42 @@
+.caja {
+    border: 1px solid black;
+    background: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* layout */
+  .container {
+    display: grid;
+    grid-template-areas:
+      "area-a"
+      "area-b"
+      "area-preg"
+      "area-ok"
+      "area-no"
+  }
+  
+  .a {grid-area: area-a}
+  .b {grid-area: area-b}
+  .pregunta {grid-area: area-preg}
+  .res-ok {grid-area: area-ok}
+  .res-no {grid-area: area-no}
+  
+  
+  /* solo para pantallas superiores a 660px */
+  @media only screen and (min-width: 660px) {
+  
+    /* layout */
+    .container {
+      display: grid;
+      grid-template-areas:
+        "area-a area-b area-preg area-preg"
+        "area-a area-b area-ok   area-no" 
+    }
+    
+  }
+  
+  
+  
+  

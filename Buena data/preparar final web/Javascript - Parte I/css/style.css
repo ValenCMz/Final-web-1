@@ -1,0 +1,7 @@
+.perro {
+    width: 60px;
+}
+
+.perro.show {
+    width: 200px;
+}

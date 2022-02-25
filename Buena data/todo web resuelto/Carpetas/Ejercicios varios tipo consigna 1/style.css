@@ -1,0 +1,95 @@
+.texto {
+  margin: 35px;
+  margin color: green;
+  /* border-color: green; */
+}
+
+
+/* .a,
+.b,
+.c,
+.d,
+.e,
+.footer,
+.header {
+  margin: 3px;
+  background-color: blanchedalmond;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.line2 {
+  grid-area: line2;
+  display: grid;
+  grid-template-areas: "a";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  display: none;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.footer {
+  grid-area: footer;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "line2 line2"
+    "c d"
+    "e e"
+    "footer footer";
+}
+
+@media only screen and (min-width: 600px) {
+  .line2 {
+    grid-area: line2;
+    display: grid;
+    grid-template-areas: "a a a b";
+  }
+
+  .a {
+    grid-area: a;
+  }
+
+  .b {
+    display: unset;
+    grid-area: b;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "line2 line2 line2"
+      "c d e"
+      "footer footer footer";
+  }
+} */
